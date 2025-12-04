@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy – Fnoted / Kebijakan Privasi – Fnoted</title>
+  <meta name="description" content="Privacy Policy (EN) and Kebijakan Privasi (ID) for Fnoted finance notes app.">
+  <style>
+    :root{
+      --bg:#0f172a;            /* slate-900 */
+      --card:#111827;          /* gray-900 */
+      --text:#e5e7eb;          /* gray-200 */
+      --muted:#9ca3af;         /* gray-400 */
+      --accent:#22c55e;        /* green-500 */
+      --link:#60a5fa;          /* blue-400 */
+      --chip:#0b1220;
+      --chipBorder:rgba(255,255,255,.14);
+    }
+    html,body{background:var(--bg);color:var(--text);margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
+    .container{max-width:920px;margin:0 auto;padding:24px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:24px 20px;backdrop-filter: blur(3px)}
+    h1{font-size:clamp(1.5rem,2.3vw,2.1rem);margin:.2rem 0 1rem 0}
+    h2{font-size:1.12rem;margin:1.2rem 0 .4rem 0}
+    p,li{font-size:1rem}
+    .muted{color:var(--muted)}
+    .badge{display:inline-block;padding:.25rem .6rem;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);font-size:.85rem}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .footer{margin-top:28px;font-size:.9rem;color:var(--muted)}
+    .brand{display:flex;align-items:center;gap:.6rem;margin-bottom:12px}
+    .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);box-shadow:0 0 16px rgba(34,197,94,.7)}
+    .lang{display:flex;gap:.5rem;flex-wrap:wrap;margin:.5rem 0 1rem 0}
+    .chip{background:var(--chip);border:1px solid var(--chipBorder);color:var(--text);padding:.35rem .75rem;border-radius:999px;cursor:pointer;user-select:none}
+    .chip[aria-pressed="true"]{background:rgba(34,197,94,.12);border-color:rgba(34,197,94,.45)}
+    .section{display:none}
+    .section.active{display:block}
+    code{background:rgba(255,255,255,.08);padding:.1rem .35rem;border-radius:6px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="brand"><span class="dot"></span><span class="badge">Fnoted</span></div>
+
+    <div class="lang" role="tablist" aria-label="Language">
+      <button class="chip" role="tab" id="tab-id" aria-selected="true" aria-controls="panel-id" onclick="switchLang('id')">Bahasa Indonesia</button>
+      <button class="chip" role="tab" id="tab-en" aria-selected="false" aria-controls="panel-en" onclick="switchLang('en')">English</button>
+    </div>
+
+    <div class="card">
+      <!-- Indonesian -->
+      <section id="panel-id" role="tabpanel" aria-labelledby="tab-id" class="section active">
+        <h1>Kebijakan Privasi – Fnoted</h1>
+        <p class="muted">Terakhir diperbarui: <strong>4 Desember 2025</strong></p>
+        <p><strong>Aplikasi:</strong> Fnoted (pencatat keuangan)<br>
+           <strong>Pengembang:</strong> GreilDev<br>
+           <strong>Kontak:</strong> <a href="mailto:callgreildev@gmail.com">callgreildev@gmail.com</a></p>
+
+        <h2>1. Ringkasan</h2>
+        <p>Fnoted dibuat untuk mencatat <strong>pemasukan</strong> dan <strong>pengeluaran</strong> secara sederhana. Aplikasi dapat digunakan <strong>tanpa akun</strong>, dan data transaksi disimpan <strong>lokal di perangkat</strong> kecuali kamu mengaktifkan sinkronisasi/backup (bila tersedia).</p>
+
+        <h2>2. Data yang Kami Kelola</h2>
+        <ul>
+          <li><strong>Data Transaksi</strong>: judul, kategori/subkategori, jumlah, mata uang, tanggal, catatan. <em>Penyimpanan:</em> lokal di perangkat.</li>
+          <li><strong>Preferensi Aplikasi</strong>: tema, bahasa/locale, mata uang default, filter. <em>Penyimpanan:</em> lokal di perangkat.</li>
+        </ul>
+        <p>Kami tidak mengumpulkan informasi identitas pribadi (seperti nama atau email) kecuali kamu memberikannya secara sukarela, misalnya saat menghubungi dukungan.</p>
+
+        <h2>3. Izin</h2>
+        <p>Fnoted berusaha minim izin. Jika suatu fitur membutuhkan izin (mis. notifikasi), aplikasi akan meminta persetujuan terlebih dahulu dan tetap dapat digunakan meski izin ditolak.</p>
+
+        <h2>4. Analitik & Crash Reports <span class="muted">(opsional)</span></h2>
+        <p>Jika di masa depan tersedia fitur analitik/crash reporting (mis. Firebase), data non-pribadi seperti model perangkat, versi OS, event penggunaan, dan log crash dapat diproses untuk perbaikan aplikasi. Kamu dapat mematikan analitik di Pengaturan (jika disediakan nanti). Pihak ketiga memproses data sesuai kebijakan mereka masing-masing.</p>
+
+        <h2>5. Sinkronisasi & Backup <span class="muted">(opsional)</span></h2>
+        <p>Jika di masa depan tersedia fitur sinkronisasi/backup, kamu akan diberi pilihan untuk mengaktifkannya. Saat aktif, sebagian data transaksi dapat disimpan pada layanan cloud pilihanmu dan tunduk pada kebijakan privasi layanan tersebut.</p>
+
+        <h2>6. Cara Kami Melindungi Data</h2>
+        <ul>
+          <li>Penyimpanan lokal (database aplikasi/DataStore).</li>
+          <li>Pembatasan akses data hanya dalam konteks aplikasi.</li>
+          <li>Kontrol pengguna terhadap ekspor/backup bila tersedia.</li>
+        </ul>
+        <p><em>Catatan:</em> Tidak ada sistem yang sepenuhnya bebas risiko. Pastikan perangkat terlindungi (PIN/biometrik) dan lakukan backup sesuai kebutuhan.</p>
+
+        <h2>7. Retensi Data</h2>
+        <p>Data disimpan selama aplikasi terpasang atau hingga kamu menghapusnya (hapus data aplikasi atau gunakan fitur hapus/ekspor bila tersedia).</p>
+
+        <h2>8. Hak & Kontrol Pengguna</h2>
+        <ul>
+          <li>Melihat/Mengubah/Menghapus data langsung di aplikasi.</li>
+          <li>Ekspor data untuk cadangan/portabilitas (jika tersedia).</li>
+          <li>Menarik persetujuan analitik/izin melalui Pengaturan.</li>
+        </ul>
+
+        <h2>9. Anak di Bawah Umur</h2>
+        <p>Fnoted tidak ditujukan untuk anak-anak. Kami tidak sengaja mengumpulkan data anak di bawah umur. Jika kamu orang tua/wali dan percaya ada data yang tidak semestinya, hubungi kami.</p>
+
+        <h2>10. Perubahan Kebijakan</h2>
+        <p>Kami dapat memperbarui kebijakan ini. Tanggal “Terakhir diperbarui” akan disesuaikan. Perubahan signifikan akan diinformasikan secara jelas (mis. di dalam aplikasi).</p>
+
+        <h2>11. Kontak</h2>
+        <p>Untuk pertanyaan atau permintaan terkait data, hubungi: <a href="mailto:callgreildev@gmail.com">callgreildev@gmail.com</a></p>
+
+        <p class="footer">© 2025 Fnoted. Dokumen ini disediakan sebagai referensi dan dapat diperbarui sewaktu-waktu.</p>
+      </section>
+
+      <!-- English -->
+      <section id="panel-en" role="tabpanel" aria-labelledby="tab-en" class="section">
+        <h1>Privacy Policy – Fnoted</h1>
+        <p class="muted">Last updated: <strong>December 4, 2025</strong></p>
+        <p><strong>App:</strong> Fnoted (finance notes)<br>
+           <strong>Developer:</strong> GreilDev<br>
+           <strong>Contact:</strong> <a href="mailto:callgreildev@gmail.com">callgreildev@gmail.com</a></p>
+
+        <h2>1. Summary</h2>
+        <p>Fnoted is built to record <strong>income</strong> and <strong>expenses</strong> in a simple way. The app can be used <strong>without an account</strong>, and transaction data is stored <strong>locally on the device</strong> unless you enable sync/backup (if available).</p>
+
+        <h2>2. Data We Handle</h2>
+        <ul>
+          <li><strong>Transaction Data</strong>: title, category/subcategory, amount, currency, date, notes. <em>Storage:</em> local on device.</li>
+          <li><strong>App Preferences</strong>: theme, language/locale, default currency, filters. <em>Storage:</em> local on device.</li>
+        </ul>
+        <p>We do not collect personally identifiable information (such as name or email) unless you voluntarily provide it, for example when contacting support.</p>
+
+        <h2>3. Permissions</h2>
+        <p>Fnoted minimizes permissions. If a feature requires permission (e.g., notifications), the app will request consent first and remains usable even if denied (with limited function).</p>
+
+        <h2>4. Analytics & Crash Reports <span class="muted">(optional)</span></h2>
+        <p>If analytics/crash reporting becomes available in the future (e.g., Firebase), non-personal data such as device model, OS version, usage events, and crash logs may be processed to improve the app. You can disable analytics in Settings (if provided later). Third parties process data according to their own privacy policies.</p>
+
+        <h2>5. Sync & Backup <span class="muted">(optional)</span></h2>
+        <p>If sync/backup becomes available in the future, you will be given a clear choice to enable it. When enabled, part of your transaction data may be stored on your chosen cloud service and will be subject to that service’s privacy policy.</p>
+
+        <h2>6. How We Protect Data</h2>
+        <ul>
+          <li>Local storage (app database/DataStore).</li>
+          <li>Access to data restricted within the app context.</li>
+          <li>User control over export/backup when available.</li>
+        </ul>
+        <p><em>Note:</em> No system is completely risk-free. Please ensure your device is protected (PIN/biometrics) and perform backups as needed.</p>
+
+        <h2>7. Data Retention</h2>
+        <p>Data is retained while the app is installed or until you delete it (clear app data or use delete/export features when available).</p>
+
+        <h2>8. User Rights & Control</h2>
+        <ul>
+          <li>View/Edit/Delete data directly in the app.</li>
+          <li>Export data for backup/portability (if available).</li>
+          <li>Withdraw consent for analytics/permissions via Settings.</li>
+        </ul>
+
+        <h2>9. Children</h2>
+        <p>Fnoted is not intended for children. We do not knowingly collect data from children. If you are a parent/guardian and believe there is inappropriate data, please contact us.</p>
+
+        <h2>10. Changes to This Policy</h2>
+        <p>We may update this policy. The “Last updated” date will be adjusted. Significant changes will be communicated clearly (e.g., in-app).</p>
+
+        <h2>11. Contact</h2>
+        <p>For questions or requests related to personal data, contact: <a href="mailto:callgreildev@gmail.com">callgreildev@gmail.com</a></p>
+
+        <p class="footer">© 2025 Fnoted. This document is provided for reference and may be updated from time to time.</p>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    function switchLang(lang){
+      const idTab = document.getElementById('tab-id');
+      const enTab = document.getElementById('tab-en');
+      const idPanel = document.getElementById('panel-id');
+      const enPanel = document.getElementById('panel-en');
+      const isID = lang === 'id';
+      idTab.setAttribute('aria-selected', isID);
+      enTab.setAttribute('aria-selected', !isID);
+      idTab.setAttribute('aria-pressed', isID);
+      enTab.setAttribute('aria-pressed', !isID);
+      idPanel.classList.toggle('active', isID);
+      enPanel.classList.toggle('active', !isID);
+      document.documentElement.lang = isID ? 'id' : 'en';
+      // update title for better SEO
+      document.title = isID ? 'Kebijakan Privasi – Fnoted' : 'Privacy Policy – Fnoted';
+      // persist choice
+      try { localStorage.setItem('fnoted_lang', lang); } catch(e){}
+    }
+    (function init(){
+      try {
+        const saved = localStorage.getItem('fnoted_lang');
+        if(saved === 'en') switchLang('en'); else switchLang('id');
+      } catch(e) { switchLang('id'); }
+    })();
+  </script>
+</body>
+</html>
